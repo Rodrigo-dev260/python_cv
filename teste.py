@@ -1,4 +1,6 @@
-def saudacao(nome):
-    print(f'Olá {nome}')
-
-saudacao('Joao')
+a = input('Digite algo: ')
+print('a é um número?', a.isnumeric())
+print('a é uma string:', a.isalpha())
+print('a é capitalizado?', a.istitle())
+print('a só tem espaço?', a.isspace())
+print(a)

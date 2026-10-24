@@ -1,0 +1,5 @@
+numero = input('Digite uma milhar EX.1986 \n')
+print('unidade:', numero[3])
+print('centena:', numero[2])
+print('dezena', numero[1])
+print('milhar', numero[0])
